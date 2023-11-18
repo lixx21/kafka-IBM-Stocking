@@ -14,13 +14,13 @@ In this project, we will use this dataset:
 
 ## Start Kafka Server
 
-- cd kafka_2.12-3.3.1
-- Start Zookeeper: bin/zookeeper-server-start.sh config/zookeeper.properties
-- Start Broker: bin/kafka-server-start.sh config/server.properties
-- Create Topic: bin/kafka-topics.sh --create --topic demo_kafka --bootstrap-server localhost:9092
-- To see Topic's lists:  bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
-- Start Producer: bin/kafka-console-producer.sh --topic demo_kafka --bootstrap-server localhost:9092
-- Start Consumer: bin/kafka-console-consumer.sh --topic demo_kafka --bootstrap-server localhost:9092
+- move directory to kafka: ```cd kafka_2.12-3.3.1```
+- Start Zookeeper: ```bin/zookeeper-server-start.sh config/zookeeper.properties```
+- Start Broker: ```bin/kafka-server-start.sh config/server.properties```
+- Create Topic:```bin/kafka-topics.sh --create --topic demo_kafka --bootstrap-server localhost:9092```
+- To see Topic's lists:  ```bin/kafka-topics.sh --bootstrap-server localhost:9092 --list```
+- Start Producer: ```bin/kafka-console-producer.sh --topic demo_kafka --bootstrap-server localhost:9092```
+- Start Consumer: ```bin/kafka-console-consumer.sh --topic demo_kafka --bootstrap-server localhost:9092```
 
 ## How to use
 
