@@ -24,6 +24,6 @@ In this project, we will use this dataset:
 
 ## How to use
 
-- clone this github ```git clone ```
+- clone this github ```git clone https://github.com/lixx21/kafka-IBM-Stocking.git```
 - install all libraries ```pip install -r requirements.txt```
 - run all shell in **kafka_consumer.ipynb** and **kafka_producer.ipynb**
